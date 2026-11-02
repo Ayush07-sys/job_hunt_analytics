@@ -9,7 +9,6 @@
 
 
 -- 1. OFFER CONVERSION BY APPLICATION SOURCE
--- ============================================================
 
 SELECT
     source,
@@ -26,7 +25,6 @@ ORDER BY offer_conversion_rate DESC;
 
 
 -- 2. RECRUITMENT FUNNEL AND KEY CONVERSION RATES
--- ============================================================
 
 WITH funnel AS (
     SELECT
@@ -62,7 +60,6 @@ FROM funnel;
 
 
 -- 3. TOP FIVE COMPANIES BY OFFER CONVERSION
--- ============================================================
 
 WITH company_summary AS (
     SELECT
@@ -94,7 +91,6 @@ ORDER BY company_rank;
 
 
 -- 4. MONTH-OVER-MONTH APPLICATION GROWTH
--- ============================================================
 
 WITH monthly_applications AS (
     SELECT
@@ -123,7 +119,7 @@ ORDER BY application_month;
 
 
 -- 5. RANK COMPANIES BY TOTAL OFFERS
--- ============================================================
+
 
 WITH company_rank AS (
     SELECT
@@ -143,7 +139,6 @@ ORDER BY company_rank;
 
 
 -- 6. COMPARE COMPANY OFFERS WITH OVERALL AVERAGE
--- ============================================================
 
 WITH company_average AS (
     SELECT
@@ -160,7 +155,6 @@ ORDER BY total_offers DESC;
 
 
 -- 7. COMPANIES ABOVE THE OVERALL OFFER AVERAGE
--- ============================================================
 
 WITH company_average AS (
     SELECT
@@ -182,7 +176,6 @@ ORDER BY total_offers DESC;
 
 
 -- 8. OFFER CONVERSION BY INDUSTRY
--- ============================================================
 
 WITH industry_offer AS (
     SELECT
@@ -204,7 +197,7 @@ ORDER BY offer_conversion_rate DESC;
 
 
 -- 9. SALARY ANALYSIS BY ROLE AND EXPERIENCE
--- ============================================================
+
 
 SELECT
     role_family,
@@ -229,7 +222,6 @@ ORDER BY
 
 
 -- 10. OFFER CONVERSION BY TOP SKILL AREA
--- ============================================================
 
 WITH skills_analysis AS (
     SELECT
@@ -251,7 +243,6 @@ ORDER BY offer_conversion_rate DESC;
 
 
 -- 11. INTERVIEW ROUND PERFORMANCE
--- ============================================================
 
 SELECT
     round_name,
@@ -278,7 +269,6 @@ ORDER BY round_name;
 
 
 -- 12. OFFER ACCEPTANCE BY INDUSTRY
--- ============================================================
 
 SELECT
     industry,
@@ -303,7 +293,6 @@ ORDER BY acceptance_rate DESC;
 
 
 -- 13. YEAR-OVER-YEAR MONTHLY APPLICATION GROWTH
--- ============================================================
 
 WITH monthly_applications AS (
     SELECT
@@ -332,7 +321,6 @@ ORDER BY application_month;
 
 
 -- 14. TOP THREE COMPANIES IN EACH INDUSTRY
--- ============================================================
 
 WITH company_offers AS (
     SELECT
@@ -358,7 +346,7 @@ ORDER BY industry, company_rank;
 
 
 -- 15. ADVANCED RECRUITMENT KPIs BY ROLE FAMILY
--- ============================================================
+
 
 WITH role_summary AS (
     SELECT
@@ -399,7 +387,3 @@ SELECT
 FROM role_summary
 ORDER BY application_to_hire_rate DESC;
 
-
--- ============================================================
--- END OF JOB HUNT ANALYTICS SQL ANALYSIS
--- ============================================================
