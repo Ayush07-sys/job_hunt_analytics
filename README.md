@@ -138,6 +138,8 @@ Open the `.pbix` dashboard file using Microsoft Power BI Desktop.
 
 ## Author
 
+**Ayush Kumar**
+
 **Data Analytics Portfolio Project**
 
 Tools: Python | SQL | PostgreSQL | Power BI
