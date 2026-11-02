@@ -68,7 +68,7 @@ The interactive dashboard provides insights into recruitment performance, includ
 
 ![Job Hunt Analytics Dashboard](powerbi/PowerBI_Dashboarb_Screenshot.png)
 
-**Dashboard File:** [Open Power BI Dashboard](powerbi/job_hunt_analytics_dashboard.pbix)
+**Dashboard File:** [job_hunt_analytics_dashboard.pbix](powerbi/job_hunt_analytics_dashboard.pbix)
 
 ## Key Performance Indicators
 
