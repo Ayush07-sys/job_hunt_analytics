@@ -84,10 +84,20 @@ The data is synthetic and is used for non-commercial portfolio and learning purp
 ## Repository Structure
 
 ```text
-job-hunt-analytics/
+job_hunt_analytics/
 │
-├── README.md
+├── data/
+│   ├── applications.csv
+│   ├── candidates.csv
+│   ├── companies.csv
+│   ├── interviews.csv
+│   ├── jobs.csv
+│   ├── offers.csv
+│   └── final_recruitment_data.csv
+│
 ├── data_analysis.py
+├── job_hunt_Analytics_Dashboard.pbix
+├── README.md
 └── recruitment_analysis.sql
 ```
 
