@@ -10,12 +10,12 @@ import pandas as pd
 # 1. LOAD ALL DATASETS
 # =========================================================
 
-applications = pd.read_csv("applications.csv")
-candidates = pd.read_csv("candidates.csv")
-companies = pd.read_csv("companies.csv")
-jobs = pd.read_csv("jobs.csv")
-interviews = pd.read_csv("interviews.csv")
-offers = pd.read_csv("offers.csv")
+applications = pd.read_csv("data/applications.csv")
+candidates = pd.read_csv("data/candidates.csv")
+companies = pd.read_csv("data/companies.csv")
+jobs = pd.read_csv("data/jobs.csv")
+interviews = pd.read_csv("data/interviews.csv")
+offers = pd.read_csv("data/offers.csv")
 
 print("=" * 60)
 print("JOB HUNT ANALYTICS - PYTHON DATA ANALYSIS")
@@ -348,10 +348,7 @@ print(
 # 14. EXPORT FINAL DATASET
 # =========================================================
 
-final_df.to_csv(
-    "final_recruitment_data.csv",
-    index=False
-)
+final_df.to_csv("data/final_recruitment_data.csv", index=False)
 
 print("\nFINAL DATASET EXPORTED")
 print("File: final_recruitment_data.csv")
