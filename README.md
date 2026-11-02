@@ -86,21 +86,9 @@ The data is synthetic and is used for non-commercial portfolio and learning purp
 ```text
 job-hunt-analytics/
 │
-├── data/
-│   └── README.md
-│
-├── python/
-│   └── data_analysis.py
-│
-├── sql/
-│   └── recruitment_analysis.sql
-│
-├── powerbi/
-│   └── job_hunt_analytics_dashboard.pbix
-│
-├── screenshots/
-│
-└── README.md
+├── README.md
+├── data_analysis.py
+└── recruitment_analysis.sql
 ```
 
 ## How to Run the Project
