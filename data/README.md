@@ -20,6 +20,6 @@ Download and place these six files in the project root folder, alongside `data_a
 ## Important Notes
 
 - The dataset contains synthetic records.
-- The CSV files are not included in this GitHub repository.
+- The CSV files are  included in this GitHub repository.
 - Please refer to the original dataset page for download instructions and license terms.
 - The Python analysis script expects the CSV files to be in the same folder as `data_analysis.py`.
