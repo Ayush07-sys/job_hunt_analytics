@@ -60,6 +60,16 @@ The data is synthetic and is used for non-commercial portfolio and learning purp
 8. Imported the prepared data into PostgreSQL for SQL analysis.
 9. Built an interactive Power BI dashboard.
 
+## Power BI Dashboard
+
+The interactive dashboard provides insights into recruitment performance, including application sources, recruitment stages, interview outcomes, offer acceptance, and role-family analysis.
+
+### Dashboard Preview
+
+![Job Hunt Analytics Dashboard](powerbi/dashboard_screenshot.png)
+
+**Dashboard File:** [Open Power BI Dashboard](powerbi/job_hunt_analytics_dashboard.pbix)
+
 ## Key Performance Indicators
 
 | Metric | Result |
